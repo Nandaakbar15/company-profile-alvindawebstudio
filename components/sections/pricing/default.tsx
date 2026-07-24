@@ -22,7 +22,7 @@ const DEFAULT_PRICING_PLANS: PricingColumnProps[] = [
     cta: {
       variant: "glow",
       label: "Get started for free",
-      href: siteConfig.getStartedUrl,
+      href: "/",
     },
     features: [
       "1 website template",
