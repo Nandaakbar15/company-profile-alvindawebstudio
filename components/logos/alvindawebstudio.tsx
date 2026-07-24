@@ -7,10 +7,10 @@ interface LogoProps {
 export default function AlvindaWebStudio({ className }: LogoProps) {
   return (
     <Image
-      src="/images/logo/Logo AlvindaWebStudio.png"
+      src="/images/logo-alvindawebstudio.png"
       alt="AlvindaWebStudio Logo"
-      width={40}
-      height={40}
+      width={76}
+      height={76}
       className={className}
       priority
     />

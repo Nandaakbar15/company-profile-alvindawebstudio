@@ -54,8 +54,13 @@ export const metadata: Metadata = {
     creator: "@nandaakbar974@gmail.com",
   },
   icons: {
-    icon: "/favicon.svg",
-    apple: "/apple-touch-icon.png",
+    icon: [
+      {
+        url: "/images/logo-alvindawebstudio.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+    ],
   },
 };
 

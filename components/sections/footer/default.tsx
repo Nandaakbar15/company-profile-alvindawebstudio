@@ -35,7 +35,6 @@ interface FooterProps {
 
 export default function FooterSection({
   logo = <AlvindaWebStudio />,
-  name = "AlvindaWebStudio",
   columns = [
     {
       title: "Company",
@@ -66,10 +65,7 @@ export default function FooterSection({
         <Footer>
           <FooterContent>
             <FooterColumn className="col-span-2 sm:col-span-3 md:col-span-1">
-              <div className="flex items-center gap-2">
-                {logo}
-                <h3 className="text-xl font-bold">{name}</h3>
-              </div>
+              <div className="flex items-center gap-2">{logo}</div>
             </FooterColumn>
             {columns.map((column) => (
               <FooterColumn key={column.title}>
