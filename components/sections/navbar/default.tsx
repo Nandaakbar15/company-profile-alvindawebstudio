@@ -5,7 +5,6 @@ import { type VariantProps } from "class-variance-authority";
 import { Menu } from "lucide-react";
 import { ReactNode } from "react";
 
-import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 
 import { Button, buttonVariants } from "../../ui/button";
@@ -48,9 +47,9 @@ export default function Navbar({
   name = "AlvindaWebStudio",
   homeUrl = "/",
   mobileLinks = [
-    { text: "Services", href: siteConfig.url },
-    { text: "Our Portfolio", href: siteConfig.url },
-    { text: "Contact", href: siteConfig.url },
+    { text: "Services", href: "/services" },
+    { text: "Our Portfolio", href: "/portfolio" },
+    { text: "Contacts", href: "/contacts" },
   ],
   actions = [
     { text: "Sign in", href: "/sigin", isButton: false },
