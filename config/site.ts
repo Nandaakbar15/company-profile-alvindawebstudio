@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "AlvindaWebStudio",
-  url: "https://launchuicomponents.com",
-  ogImage: "/images/logo/Logo AlvindaWebStudio.png",
+  url: "https://alvindawebstudio.vercel.app/",
+  ogImage: "/images/preview.png",
   description:
     "Landing page components built with React, Shadcn/ui and Tailwind that will make your website feel premium.",
   version: "v2.10",

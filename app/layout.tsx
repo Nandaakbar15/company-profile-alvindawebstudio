@@ -26,13 +26,13 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "AlvindaWebstudio",
-      url: "https://mikolajdobrucki.com",
+      url: "https://alvindawebstudio.vercel.app/",
     },
   ],
   creator: "alvindawebstudio",
   openGraph: {
     type: "website",
-    locale: "idn_Indonesia",
+    locale: "id_ID",
     url: siteConfig.url,
     title: siteConfig.name,
     description: siteConfig.description,
