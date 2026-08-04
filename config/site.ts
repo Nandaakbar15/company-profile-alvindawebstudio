@@ -3,7 +3,7 @@ export const siteConfig = {
   url: "https://alvindawebstudio.vercel.app/",
   ogImage: "/images/preview.png",
   description:
-    "Landing page components built with React, Shadcn/ui and Tailwind that will make your website feel premium.",
+    "AlvindaWebStudio menyediakan jasa pembuatan website profesional untuk UMKM, perusahaan, sekolah, dan bisnis. Menggunakan Next.js, Laravel, React, dan Tailwind CSS.",
   version: "v2.10",
   links: {
     instagram: "https://www.instagram.com/alvindawebstudio",
