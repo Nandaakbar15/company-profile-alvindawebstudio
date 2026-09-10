@@ -7,7 +7,7 @@ import { Section } from "../../ui/section";
 export const portfolioData: Portfolio[] = [
   {
     title: "Simpeg App",
-    subtitle: "Aplikasi mengelola asn berbasis website",
+    subtitle: "Aplikasi mengelola data pegawai asn berbasis website",
     image: "/images/portfolio/simpeg-app.png",
   },
   {
@@ -29,6 +29,16 @@ export const portfolioData: Portfolio[] = [
     title: "Kopi Senjaku",
     subtitle: "Website kafe kopi senjaku",
     image: "/images/portfolio/kopisenjaku.png",
+  },
+  {
+    title: "Inventory Management App",
+    subtitle: "Aplikasi mengelola stok barang atau gudang berbasis website",
+    image: "/images/portfolio/Invetory Management App dashboard.png",
+  },
+  {
+    title: "Product Management App",
+    subtitle: "Aplikasi mengelola manajemen produk berbasis website",
+    image: "/images/portfolio/product-management-app-dashboard.png",
   },
 ];
 
