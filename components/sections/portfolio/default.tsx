@@ -40,6 +40,11 @@ export const portfolioData: Portfolio[] = [
     subtitle: "Aplikasi mengelola manajemen produk berbasis website",
     image: "/images/portfolio/product-management-app-dashboard.png",
   },
+  {
+    title: "2PM Crumbs App",
+    subtitle: "Aplikasi Inventaris dan Produksi dapur berbasis website",
+    image: "/images/portfolio/Crumbs App.png",
+  },
 ];
 
 interface PortfolioProps {
